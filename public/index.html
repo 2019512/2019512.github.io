@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Site</title>
+        <link type="text/css" href="css/style.css">
+        <style>            
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=dialogue] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=expression] header {
+                font-size: 1.25em;
+            }
+        </style>
+        
+    </head>S
+    <body>
+        <div id="all-contents">
+            <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+              </ul>
+            </nav>
+            <main>
+                
+                <div class="side-bar">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+                </div>
+                
+                <div class="content">
+                    <header>Welcome Agent</header>
+                    <p class="dialogue">Let's Begin.</p>
+                  <section class="interests">
+                    <header>interests</header>
+                    <p class="expression"></p>
+                  </section>
+                </div>
+                
+                
+            </main>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>  
